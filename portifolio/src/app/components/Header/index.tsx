@@ -13,7 +13,7 @@ export default function Header() {
     }
 
     return (
-        <header className={theme === "light" ? "bg-cyberTech-hard_blue flex justify-center" : "dark:bg-black"}>
+        <header className={" flex justify-center dark:bg-black bg-cyberTech-hard_blue"}>
             <h1 className='text-center'>Olá Mundo</h1>
             <button className='bg-cyberTech-soft_blue text-cyberTech-hard_blue' onClick={toggleThemer}>
                 {theme === 'light' ? "Mudar para Dark" : "Mudar para Light"}
